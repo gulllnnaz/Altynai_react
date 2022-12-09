@@ -1,0 +1,45 @@
+.rpsContainer {
+    height: 53vh;
+    background-image: url('../../../assets/svgs/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 53vw 37vw;
+}
+
+.rpsHalfContainer {
+    width: 100%;
+    min-height: 50%;
+}
+
+.rpsUpperLeftItem {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding-right: 19px;
+    margin-top: auto;
+}
+
+.rpsUpperRightItem {
+    margin-top: auto;
+    width: 50%;
+    padding-left: 19px;
+}
+
+@media only screen and (min-width: 600px) {
+    .rpsContainer {
+        background-size: 28vw 17vw;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .rpsUpperLeftItem{
+        padding-right: 85px;
+        padding-bottom: 7vh;
+    }
+    .rpsUpperRightItem { 
+        padding-left: 88px;
+        padding-bottom: 7vh;
+    }
+}
